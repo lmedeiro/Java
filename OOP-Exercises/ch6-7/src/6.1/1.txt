@@ -1,0 +1,15 @@
+1.
+a.
+Abstract classes are used mainly for aggregating common 
+state and behavior from a range of related classes.
+The abstract class becomes the base class for a class
+(sub)hierarchy.
+An abstract class can also implement a generic algorithm in 
+the Template Method design pattern.
+
+b. 
+Java does not support multiple inheritence.
+If class A must be a subclass of B, but must also inherit 
+methods from an abstract class C, the solution is to make 
+C an interface.
+

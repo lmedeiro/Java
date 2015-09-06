@@ -1,0 +1,17 @@
+a) HashSet<E> extends java.util.AbstractSet<E>
+and java.util.AbstractSet<E> implements Set<E>
+
+Patters: TemplateMethod (AbstractClass is AbstractSet, with many template methods inherited from AbstractCollection)
+
+AbstractSet also shows the use of the Iterator pattern by implementing interface Iterable<T>. 
+
+
+b)
+Composite.
+A GeneralPath implements interface java.awt.Shape,
+and aggregates multiple Shape objects (method append()).
+
+Note:
+In addition, it also provides an iterator (interface PathIterator) to iterate through the shapes.
+Its "grandfather" superclass java.awt.geom.Path2D provides several template methods.
+
